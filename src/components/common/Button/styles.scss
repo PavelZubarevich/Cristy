@@ -1,0 +1,47 @@
+@import '../../../styles/vars.scss';
+
+.button {
+  background-color: transparent;
+  border: 0;
+  font-family: "Lora";
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &_sm {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &_lg {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &_contained {
+    padding: 15px 35px;
+
+    &_primary {
+      background-color: $primary;
+      color: #fff;
+    }
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  &_text {
+    &_primary {
+      color: $primary;
+    }
+
+    &_primaryText {
+      color: $primaryText;
+    }
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}
