@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 import './styles.scss';
 
 function Button({
-  text, variant, color, className, size,
+  text, variant, color, className, size, onClick,
 }) {
   return (
-    <button type="button" className={`button button_${size} button_${variant} button_${variant}_${color} ${className}`}>{text}</button>
+    <button type="button" onClick={onClick} className={`button button_${size} button_${variant} button_${variant}_${color} ${className}`}>{text}</button>
   );
 }
 
@@ -17,6 +17,7 @@ Button.propTypes = {
   color: PropTypes.oneOf(['primary', 'primaryText']),
   className: PropTypes.string,
   size: PropTypes.oneOf(['sm', 'lg']),
+  onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
@@ -24,4 +25,5 @@ Button.defaultProps = {
   color: 'primary',
   className: '',
   size: 'lg',
+  onClick: () => {},
 };
