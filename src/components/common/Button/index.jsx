@@ -13,10 +13,10 @@ export default Button;
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
-  variant: PropTypes.oneOf(['contained, text']),
-  color: PropTypes.oneOf(['primary, primaryText']),
+  variant: PropTypes.oneOf(['contained', 'text']),
+  color: PropTypes.oneOf(['primary', 'primaryText']),
   className: PropTypes.string,
-  size: PropTypes.oneOf(['sm, lg']),
+  size: PropTypes.oneOf(['sm', 'lg']),
 };
 
 Button.defaultProps = {
