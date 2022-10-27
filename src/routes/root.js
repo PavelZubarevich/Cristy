@@ -1,5 +1,11 @@
-export default function Root() {
+import { Header } from '../components';
+
+function Root() {
   return (
-    <div></div>
-  )
+    <div>
+      <Header />
+    </div>
+  );
 }
+
+export default Root;

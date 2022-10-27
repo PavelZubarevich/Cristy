@@ -1,4 +1,5 @@
 {
-  "FreeShippingOver": "Free Shipping on over {{value}}$",
-  "LoginLabel": "Login"
+  "FreeShippingOverText": "Free Shipping on over {{value}}$",
+  "LoginLabel": "Login",
+  "CreateAccountText": "Create account"
 }

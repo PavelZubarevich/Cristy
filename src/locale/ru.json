@@ -1,5 +1,5 @@
 {
-  "FreeShippingOver": "Бесплатная доставка при заказе от 100$",
-  "LoginLabel": "Вход"
-
+  "FreeShippingOverText": "Бесплатная доставка при заказе от {{value}}$",
+  "LoginLabel": "Вход",
+  "CreateAccountText": "Создать аккаунт"
 }
