@@ -1,5 +1,20 @@
 {
   "FreeShippingOverText": "Free Shipping on over {{value}}$",
   "LoginLabel": "Login",
-  "CreateAccountText": "Create account"
+  "CreateAccountText": "Create account",
+  "CopyrightText": "Copyright 2016. All Rights Reserved.",
+  "SubscribeToNewsText":"Subscribe to our newsletter:",
+  "CompanyLabel": "Company",
+  "AboutLabel": "About",
+  "OurShopsLabel": "Our Shops",
+  "NewsLabel": "News",
+  "DeliveryLabel": "Delivery",
+  "ContactUsLabel": "Contact us",
+  "FAQLabel": "F.A.Q.",
+  "HelpLabel": "Help",
+  "TermsLabel": "Terms",
+  "GetSocialLabel": "Get Social",
+  "ContactLabel": "Contact",
+  "PhoneLabel": "Phone",
+  "EmailLabel": "Email"
 }

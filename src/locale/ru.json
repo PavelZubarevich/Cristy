@@ -1,5 +1,19 @@
 {
   "FreeShippingOverText": "Бесплатная доставка при заказе от {{value}}$",
   "LoginLabel": "Вход",
-  "CreateAccountText": "Создать аккаунт"
+  "CreateAccountText": "Создать аккаунт",
+  "CopyrightText": "Copyright 2016. Все права защищены.",
+  "SubscribeToNewsText":"Подпишись на нашу рассылку:",
+  "CompanyLabel": "Компания",
+  "AboutLabel": "О нас",
+  "OurShopsLabel": "Наши магазины",
+  "NewsLabel": "Новости",
+  "DeliveryLabel": "Доставка",
+  "ContactUsLabel": "Свяжитесь с нами",
+  "FAQLabel": "Часто задаваемые вопросы",
+  "HelpLabel": "Помошь",
+  "TermsLabel": "Условия",
+  "GetSocialLabel": "Социальные сети",
+  "ContactLabel": "Контакты",
+  "PhoneLabel": "Телефон"
 }

@@ -1,7 +1,7 @@
 import Header from './Header';
+import Footer from './Footer';
 
 export {
-
-  // eslint-disable-next-line
+  Footer,
   Header,
 };

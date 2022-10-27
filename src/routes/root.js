@@ -1,9 +1,10 @@
-import { Header } from '../components';
+import { Header, Footer } from '../components';
 
 function Root() {
   return (
-    <div>
+    <div className="wrapper">
       <Header />
+      <Footer />
     </div>
   );
 }
