@@ -13,8 +13,8 @@ export default Button;
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
-  variant: PropTypes.oneOf(['contained', 'text']),
-  color: PropTypes.oneOf(['primary', 'primaryText']),
+  variant: PropTypes.oneOf(['contained', 'text', 'icon']),
+  color: PropTypes.oneOf(['primary', 'primaryText', 'white']),
   className: PropTypes.string,
   size: PropTypes.oneOf(['sm', 'lg']),
   onClick: PropTypes.func,
