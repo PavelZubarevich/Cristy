@@ -68,7 +68,21 @@
         color: $primaryDarkText;
         font-size: 22px;
       }
+    }
 
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  &_outlined {
+    padding: 15px 35px;
+    border: 2px solid $primary;
+    color: $primaryDarkText;
+
+    &:hover {
+      background-color: $primary;
+      color: #fff;
     }
   }
 }

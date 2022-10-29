@@ -2,18 +2,18 @@ import PropTypes from 'prop-types';
 import './styles.scss';
 
 function Button({
-  text, variant, color, className, size, onClick,
+  variant, color, className, size, onClick, children,
 }) {
   return (
-    <button type="button" onClick={onClick} className={`button button_${size} button_${variant} button_${variant}_${color} ${className}`}>{text}</button>
+    <button type="button" onClick={onClick} className={`button button_${size} button_${variant} button_${variant}_${color} ${className}`}>{children}</button>
   );
 }
 
 export default Button;
 
 Button.propTypes = {
-  text: PropTypes.string.isRequired,
-  variant: PropTypes.oneOf(['contained', 'text', 'icon']),
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  variant: PropTypes.oneOf(['contained', 'text', 'icon', 'outlined']),
   color: PropTypes.oneOf(['primary', 'primaryText', 'white']),
   className: PropTypes.string,
   size: PropTypes.oneOf(['sm', 'lg']),
@@ -21,7 +21,8 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  variant: 'primary',
+  children: '',
+  variant: 'contained',
   color: 'primary',
   className: '',
   size: 'lg',
