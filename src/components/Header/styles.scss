@@ -1,8 +1,8 @@
 @import '../../styles/vars.scss';
 
 .header {
-
   background-color: #fff;
+  border-bottom: 1px solid $secondaryText;
 
   &__top {
     border-bottom: 1px solid $secondaryText;
@@ -65,11 +65,13 @@
   }
 
   &__logo {
-    font-family: 'Lora';
-    font-weight: 700;
-    font-style: italic;
-    font-size: 36px;
-    color: $primaryDarkText;
+    &>a {
+      font-family: 'Lora';
+      font-weight: 700;
+      font-style: italic;
+      font-size: 36px;
+      color: $primaryDarkText;
+    }
   }
 
   &__search,

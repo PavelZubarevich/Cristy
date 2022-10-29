@@ -24,7 +24,7 @@ function HeaderTop() {
                     if (elem !== 'cimode' && elem !== i18n.language) {
                       return (
                         <li key={elem}>
-                          <Button text={elem} variant="text" color="primaryText" size="sm" onClick={() => changeLang(elem)} />
+                          <Button variant="text" color="primaryText" size="sm" onClick={() => changeLang(elem)}>{elem}</Button>
                         </li>
                       );
                     }
@@ -42,7 +42,7 @@ function HeaderTop() {
             <li>
               <HeaderDropDown title={t('LoginLabel')}>
                 <>
-                  <Button text={t('LoginLabel')} variant="contained" className="header__login" />
+                  <Button variant="contained" className="header__login">{t('LoginLabel')}</Button>
                   <a href="/" className="header__createAccount">{t('CreateAccountText')}</a>
                 </>
               </HeaderDropDown>
