@@ -4,7 +4,7 @@ import FooterTop from './components/FooterTop';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <FooterTop />
       <FooterBottom />
     </footer>
