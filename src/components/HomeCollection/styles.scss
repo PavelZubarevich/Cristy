@@ -1,0 +1,33 @@
+@import '../../styles/vars.scss';
+
+.homeCollection {
+  padding: 90px 0 70px 0;
+
+  &__collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__collectionLabel {
+    font-family: "Butler";
+    font-weight: 400;
+    font-size: 40px;
+    color: $primaryDarkText;
+    margin-bottom: 25px;
+  }
+
+  &__collectionText {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 14px;
+    color: $primaryText;
+    text-align: center;
+    max-width: 720px;
+    margin-bottom: 60px;
+  }
+
+  &__listing {
+    margin-bottom: 20px;
+  }
+}
