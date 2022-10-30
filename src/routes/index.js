@@ -1,6 +1,6 @@
 import Root from './root';
 import ErrorPage from './error';
-import Home from './Home';
+import Home from './home';
 
 export {
   Home,
