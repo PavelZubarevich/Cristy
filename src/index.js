@@ -8,6 +8,8 @@ import {
 import reportWebVitals from './reportWebVitals';
 import { ErrorPage, Root, Home } from './routes';
 import './i18n';
+import { loader as homeLoader } from './routes/home';
+import 'swiper/swiper-bundle.min.css';
 
 const router = createBrowserRouter([
   {
@@ -16,8 +18,9 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: '/',
+        index: true,
         element: <Home />,
+        loader: homeLoader,
       },
     ],
   },
