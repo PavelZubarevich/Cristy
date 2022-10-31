@@ -6,6 +6,10 @@
 
   &__top {
     border-bottom: 1px solid $secondaryText;
+
+    @media(max-width: 576px) {
+      display: none;
+    }
   }
 
   &__topContent {
@@ -62,15 +66,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media(max-width: 768px) {
+      height: 80px;
+    }
   }
 
   &__logo {
+    position: absolute;
+    right: calc(50% - 52px);
+
     &>a {
       font-family: 'Lora';
       font-weight: 700;
       font-style: italic;
       font-size: 36px;
       color: $primaryDarkText;
+    }
+  }
+
+  &__buttons {
+    @media(max-width: 768px) {
+      display: none;
     }
   }
 

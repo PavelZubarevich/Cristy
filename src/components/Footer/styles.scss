@@ -10,12 +10,29 @@
   &__topContent {
     display: flex;
     justify-content: space-between;
-    gap: 25px;
-    padding: 75px 0;
+    gap: 20px;
+    padding: 70px 0;
+
+    @media(max-width: 768px) {
+      padding: 50px 0;
+      flex-wrap: wrap;
+    }
+
+    @media(max-width: 576px) {
+      padding: 30px 0;
+    }
   }
 
   &__topColumn {
     flex: 0 1 25%;
+
+    @media(max-width: 768px) {
+      flex: 1 45%;
+    }
+
+    @media(max-width: 576px) {
+      flex: 1 100%;
+    }
   }
 
   &__navCategory {
@@ -63,7 +80,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 80px 0;
+    padding: 50px 0;
+
+    @media(max-width: 768px) {
+      padding: 30px 0;
+    }
+
+    @media(max-width: 576px) {
+      gap: 30px;
+      flex-direction: column-reverse;
+    }
   }
 
   &__copyright {

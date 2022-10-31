@@ -4,8 +4,16 @@
   margin: 0 -15px;
 
   &__product {
-    flex: 1 1 25%;
+    flex: 1 25%;
     padding: 0 15px;
     margin-bottom: 30px;
+
+    @media (max-width: 768px) {
+      flex: 1 50%;
+    }
+
+    @media (max-width: 576px) {
+      flex: 1 100%;
+    }
   }
 }

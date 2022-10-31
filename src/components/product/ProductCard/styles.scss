@@ -6,6 +6,10 @@
   position: relative;
   padding-bottom: 45px;
 
+  @media(max-width: 768px) {
+    padding-bottom: 20px;
+  }
+
   &__image {
     flex: 0 0 200px;
     height: 200px;
@@ -57,6 +61,21 @@
     visibility: hidden;
     opacity: 0;
     transition: 0.3s;
+
+    @media(max-width: 768px) {
+      position: static;
+      background-color: transparent;
+      visibility: visible;
+      opacity: 1;
+      gap: 30px;
+      margin-top: 20px;
+
+      & button {
+        &.button_icon_white {
+          border: 1px solid $secondaryText;
+        }
+      }
+    }
   }
 
   &:hover {

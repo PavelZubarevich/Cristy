@@ -13,15 +13,18 @@ function HomeCollection() {
   };
 
   return (
-    <div className="homeCollection container">
-      <div className="homeCollection__collection">
-        <h2 className="homeCollection__collectionLabel">{t('OurCollectionsLabel')}</h2>
-        <p className="homeCollection__collectionText">{t('ColectionDescriptionText')}</p>
-        <div className="homeCollection__listing">
-          <ProductsListing />
+    <div className="homeCollection">
+      <div className="container">
+        <div className="homeCollection__collection">
+          <h2 className="homeCollection__collectionLabel">{t('OurCollectionsLabel')}</h2>
+          <p className="homeCollection__collectionText">{t('ColectionDescriptionText')}</p>
+          <div className="homeCollection__listing">
+            <ProductsListing />
+          </div>
+          <Button variant="outlined" onClick={handleViewProducts}>{t('ViewAllProductsLabel')}</Button>
         </div>
-        <Button variant="outlined" onClick={handleViewProducts}>{t('ViewAllProductsLabel')}</Button>
       </div>
+
     </div>
   );
 }

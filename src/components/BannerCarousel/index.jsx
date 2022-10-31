@@ -46,6 +46,7 @@ function BannerCarousel() {
           slidesPerView={1}
           loop
           modules={[Navigation]}
+          autoHeight
           navigation={{
             prevEl: navigationPrevRef.current,
             nextEl: navigationNextRef.current,
