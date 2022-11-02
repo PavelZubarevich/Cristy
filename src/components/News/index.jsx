@@ -1,9 +1,14 @@
+import { useEffect, useState } from 'react';
 import { getLastNews } from '../../api/news';
 import NewsItem from './components/NewsItem';
 import './styles.scss';
 
 function News() {
-  const news = getLastNews();
+  const [news, setNews] = useState([]);
+
+  useEffect(() => {
+    setNews(getLastNews());
+  }, []);
 
   return (
     <div className="news">

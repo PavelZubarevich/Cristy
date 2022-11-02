@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import { IoChevronForwardCircleOutline, IoChevronBackCircleOutline } from 'react-icons/io5';
-import CaruselItem from './components/CaruselItem';
+import CarouselItem from './components/CarouselItem';
 import './styles.scss';
 
 const items = [
@@ -61,7 +61,7 @@ function BannerCarousel() {
           {items.map((item) => (
             <SwiperSlide key={item.id}>
               <div className="container">
-                <CaruselItem
+                <CarouselItem
                   title={item.title}
                   description={item.description}
                   linkText={item.linkText}

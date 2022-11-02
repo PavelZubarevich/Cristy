@@ -20,7 +20,7 @@ function ProductCard({
         <img src={img} alt={title} />
       </div>
       <div className="productCard__content">
-        <div className="productCard__title">{title}</div>
+        <h3 className="productCard__title">{title}</h3>
         <div className="productCard__price">
           $
           {price}

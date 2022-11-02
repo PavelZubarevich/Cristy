@@ -8,8 +8,8 @@ function ProductRating({ rating }) {
   return (
     <div className="productRating">
       {[...Array(5)].map((e, i) => {
-        if (i + 1 < rating) return <IoStar key={Math.random()} className="productRating__star" />;
-        if ((i + 1 - rating) < 0.5) return <IoStarHalfOutline key={Math.random()} className="productRating__star" />;
+        if (i + 1 <= rating || i + 1 - rating <= 0.3) return <IoStar key={Math.random()} className="productRating__star" />;
+        if ((i + 1 - rating) <= 0.7 && (i + 1 - rating) >= 0.3) return <IoStarHalfOutline key={Math.random()} className="productRating__star" />;
         return <IoStarOutline key={Math.random()} className="productRating__star" />;
       })}
     </div>

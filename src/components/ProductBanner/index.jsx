@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Button from '../common/Button';
 import './styles.scss';
 
@@ -7,6 +8,7 @@ function ProductBanner({
   title, description, image, route, reversed,
 }) {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const handleButtonClick = () => {
     navigate(route);
@@ -20,7 +22,7 @@ function ProductBanner({
             <h2 className="productBanner__title">{title}</h2>
             <p className="productBanner__description">{description}</p>
             <Button variant="contained" color="primary" onClick={handleButtonClick}>
-              Buy now
+              {t('BuyNowLabel')}
             </Button>
           </div>
           <div className="productBanner__image">

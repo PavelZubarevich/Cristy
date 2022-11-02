@@ -5,7 +5,7 @@ function Button({
   variant, color, className, size, onClick, children,
 }) {
   return (
-    <button type="button" onClick={onClick} className={`button button_${size} button_${variant} button_${variant}_${color} ${className}`}>{children}</button>
+    <button type="button" onClick={onClick} className={`button button_${size} button_${variant} button_${variant}_${color} ${className}`.trim()}>{children}</button>
   );
 }
 
