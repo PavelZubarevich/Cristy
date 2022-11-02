@@ -1,0 +1,544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product listing should render with products 1`] = `
+<body>
+  <div>
+    <ul
+      class="productsListing"
+    >
+      <li
+        class="productsListing__product"
+      >
+        <div
+          class="productCard"
+        >
+          <div
+            class="productCard__image"
+          >
+            <img
+              alt="test"
+              src=""
+            />
+          </div>
+          <div
+            class="productCard__content"
+          >
+            <h3
+              class="productCard__title"
+            >
+              test
+            </h3>
+            <div
+              class="productCard__price"
+            >
+              $
+              11
+            </div>
+            <div
+              class="productCard__rating"
+            >
+              <div
+                class="productRating"
+              >
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                    fill="none"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                    fill="none"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                    fill="none"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                    fill="none"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="productCard__hover"
+            >
+              <button
+                class="button button_lg button_icon button_icon_primary"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="256"
+                    cy="256"
+                    r="64"
+                  />
+                  <path
+                    d="M490.84 238.6c-26.46-40.92-60.79-75.68-99.27-100.53C349 110.55 302 96 255.66 96c-42.52 0-84.33 12.15-124.27 36.11-40.73 24.43-77.63 60.12-109.68 106.07a31.92 31.92 0 00-.64 35.54c26.41 41.33 60.4 76.14 98.28 100.65C162 402 207.9 416 255.66 416c46.71 0 93.81-14.43 136.2-41.72 38.46-24.77 72.72-59.66 99.08-100.92a32.2 32.2 0 00-.1-34.76zM256 352a96 96 0 1196-96 96.11 96.11 0 01-96 96z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="button button_lg button_icon button_icon_white"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M80 176a16 16 0 00-16 16v216c0 30.24 25.76 56 56 56h272c30.24 0 56-24.51 56-54.75V192a16 16 0 00-16-16zm80 0v-32a96 96 0 0196-96h0a96 96 0 0196 96v32"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                  <path
+                    d="M160 224v16a96 96 0 0096 96h0a96 96 0 0096-96v-16"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="productsListing__product"
+      >
+        <div
+          class="productCard"
+        >
+          <div
+            class="productCard__image"
+          >
+            <img
+              alt="test2"
+              src=""
+            />
+          </div>
+          <div
+            class="productCard__content"
+          >
+            <h3
+              class="productCard__title"
+            >
+              test2
+            </h3>
+            <div
+              class="productCard__price"
+            >
+              $
+              22
+            </div>
+            <div
+              class="productCard__rating"
+            >
+              <div
+                class="productRating"
+              >
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                    fill="none"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                    fill="none"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                    fill="none"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="productCard__hover"
+            >
+              <button
+                class="button button_lg button_icon button_icon_primary"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="256"
+                    cy="256"
+                    r="64"
+                  />
+                  <path
+                    d="M490.84 238.6c-26.46-40.92-60.79-75.68-99.27-100.53C349 110.55 302 96 255.66 96c-42.52 0-84.33 12.15-124.27 36.11-40.73 24.43-77.63 60.12-109.68 106.07a31.92 31.92 0 00-.64 35.54c26.41 41.33 60.4 76.14 98.28 100.65C162 402 207.9 416 255.66 416c46.71 0 93.81-14.43 136.2-41.72 38.46-24.77 72.72-59.66 99.08-100.92a32.2 32.2 0 00-.1-34.76zM256 352a96 96 0 1196-96 96.11 96.11 0 01-96 96z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="button button_lg button_icon button_icon_white"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M80 176a16 16 0 00-16 16v216c0 30.24 25.76 56 56 56h272c30.24 0 56-24.51 56-54.75V192a16 16 0 00-16-16zm80 0v-32a96 96 0 0196-96h0a96 96 0 0196 96v32"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                  <path
+                    d="M160 224v16a96 96 0 0096 96h0a96 96 0 0096-96v-16"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li
+        class="productsListing__product"
+      >
+        <div
+          class="productCard"
+        >
+          <div
+            class="productCard__image"
+          >
+            <img
+              alt="test3"
+              src=""
+            />
+          </div>
+          <div
+            class="productCard__content"
+          >
+            <h3
+              class="productCard__title"
+            >
+              test3
+            </h3>
+            <div
+              class="productCard__price"
+            >
+              $
+              33
+            </div>
+            <div
+              class="productCard__rating"
+            >
+              <div
+                class="productRating"
+              >
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                    fill="none"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+                <svg
+                  class="productRating__star"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                    fill="none"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="productCard__hover"
+            >
+              <button
+                class="button button_lg button_icon button_icon_primary"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="256"
+                    cy="256"
+                    r="64"
+                  />
+                  <path
+                    d="M490.84 238.6c-26.46-40.92-60.79-75.68-99.27-100.53C349 110.55 302 96 255.66 96c-42.52 0-84.33 12.15-124.27 36.11-40.73 24.43-77.63 60.12-109.68 106.07a31.92 31.92 0 00-.64 35.54c26.41 41.33 60.4 76.14 98.28 100.65C162 402 207.9 416 255.66 416c46.71 0 93.81-14.43 136.2-41.72 38.46-24.77 72.72-59.66 99.08-100.92a32.2 32.2 0 00-.1-34.76zM256 352a96 96 0 1196-96 96.11 96.11 0 01-96 96z"
+                  />
+                </svg>
+              </button>
+              <button
+                class="button button_lg button_icon button_icon_white"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M80 176a16 16 0 00-16 16v216c0 30.24 25.76 56 56 56h272c30.24 0 56-24.51 56-54.75V192a16 16 0 00-16-16zm80 0v-32a96 96 0 0196-96h0a96 96 0 0196 96v32"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                  <path
+                    d="M160 224v16a96 96 0 0096 96h0a96 96 0 0096-96v-16"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="32"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+`;
+
+exports[`Product listing should render without products 1`] = `
+<body>
+  <div>
+    <ul
+      class="productsListing"
+    />
+  </div>
+</body>
+`;
