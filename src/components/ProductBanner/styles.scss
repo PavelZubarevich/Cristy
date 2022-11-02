@@ -1,0 +1,86 @@
+@import '../../styles/vars.scss';
+
+.productBanner {
+  background-color: #eef1f8;
+  padding: 135px 0;
+
+  @media(max-width: 768px) {
+    padding: 60px 0;
+  }
+
+  @media(max-width: 576px) {
+    padding: 30px 0;
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+    &.reversed {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &__content {
+    flex: 1;
+  }
+
+  &__title {
+    font-family: 'Butler';
+    font-size: 65px;
+    font-weight: 700;
+    color: $primary;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+
+    @media(max-width: 768px) {
+      font-size: 50px;
+    }
+
+    @media(max-width: 576px) {
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__description {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 400;
+    color: $primaryText;
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    font-family: 'Lora';
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: $primary;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    &>svg {
+      font-size: 19px;
+    }
+  }
+
+  &__image {
+    flex: 1;
+    height: 350px;
+
+    @media(max-width: 768px) {
+      display: none;
+    }
+
+    &>img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}

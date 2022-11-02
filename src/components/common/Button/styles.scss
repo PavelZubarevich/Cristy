@@ -1,0 +1,88 @@
+@import '../../../styles/vars.scss';
+
+.button {
+  background-color: transparent;
+  border: 0;
+  font-family: "Lora";
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &_sm {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &_lg {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &_contained {
+    padding: 15px 35px;
+
+    &_primary {
+      background-color: $primary;
+      color: #fff;
+    }
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  &_text {
+    &_primary {
+      color: $primary;
+    }
+
+    &_primaryText {
+      color: $primaryText;
+    }
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  &_icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_primary {
+      background-color: $primary;
+
+      &>svg {
+        color: #fff;
+        font-size: 22px;
+      }
+    }
+
+    &_white {
+      background-color: #fff;
+
+      &>svg {
+        color: $primaryDarkText;
+        font-size: 22px;
+      }
+    }
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  &_outlined {
+    padding: 15px 35px;
+    border: 2px solid $primary;
+    color: $primaryDarkText;
+
+    &:hover {
+      background-color: $primary;
+      color: #fff;
+    }
+  }
+}

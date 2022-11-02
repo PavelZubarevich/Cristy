@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header top header top is rendered 1`] = `
+<body>
+  <div>
+    <div
+      class="header__top"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="header__topContent"
+        >
+          <p
+            class="header__topLabel"
+          >
+            FreeShippingOverText
+          </p>
+          <ul
+            class="header__topMenu"
+          >
+            <li>
+              <div
+                class="headerDropDown"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="headerDropDown__title "
+                  type="button"
+                >
+                  ru
+                </button>
+              </div>
+            </li>
+            <li>
+              <div
+                class="headerDropDown"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="headerDropDown__title "
+                  type="button"
+                >
+                  USD
+                </button>
+              </div>
+            </li>
+            <li>
+              <div
+                class="headerDropDown"
+              >
+                <button
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="headerDropDown__title "
+                  type="button"
+                >
+                  LoginLabel
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

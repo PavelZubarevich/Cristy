@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarouselItem should render carousel item 1`] = `
+<body>
+  <div>
+    <div
+      class="carouselItem"
+    >
+      <div
+        class="carouselItem__content"
+      >
+        <h2
+          class="carouselItem__title"
+        >
+          title
+        </h2>
+        <p
+          class="carouselItem__description"
+        >
+          description
+        </p>
+        <a
+          class="carouselItem__link"
+          href="/test"
+        >
+          link text
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M268 112l144 144-144 144m124-144H100"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="48"
+            />
+          </svg>
+        </a>
+      </div>
+      <div
+        class="carouselItem__image"
+      >
+        <img
+          alt="title"
+          src=""
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

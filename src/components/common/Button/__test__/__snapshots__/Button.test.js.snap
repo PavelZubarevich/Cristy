@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button button contained should render large primary button 1`] = `
+<body>
+  <div>
+    <button
+      class="button button_lg button_contained button_contained_primary"
+      type="button"
+    />
+  </div>
+</body>
+`;
+
+exports[`Button button contained should render small primary button 1`] = `
+<body>
+  <div>
+    <button
+      class="button button_sm button_contained button_contained_primary"
+      type="button"
+    />
+  </div>
+</body>
+`;
+
+exports[`Button button icon should render primary button 1`] = `
+<body>
+  <div>
+    <button
+      class="button button_lg button_icon button_icon_primary"
+      type="button"
+    />
+  </div>
+</body>
+`;
+
+exports[`Button button icon should render white button 1`] = `
+<body>
+  <div>
+    <button
+      class="button button_lg button_icon button_icon_white"
+      type="button"
+    />
+  </div>
+</body>
+`;
+
+exports[`Button button outlined should render button 1`] = `
+<body>
+  <div>
+    <button
+      class="button button_lg button_outlined button_outlined_primary"
+      type="button"
+    />
+  </div>
+</body>
+`;
+
+exports[`Button button text should render large primary button 1`] = `
+<body>
+  <div>
+    <button
+      class="button button_lg button_text button_text_primary"
+      type="button"
+    />
+  </div>
+</body>
+`;
+
+exports[`Button button text should render large primaryText button 1`] = `
+<body>
+  <div>
+    <button
+      class="button button_lg button_text button_text_primary"
+      type="button"
+    />
+  </div>
+</body>
+`;
+
+exports[`Button button text should render small primary button 1`] = `
+<body>
+  <div>
+    <button
+      class="button button_sm button_text button_text_primary"
+      type="button"
+    />
+  </div>
+</body>
+`;
+
+exports[`Button button text should render small primaryText button 1`] = `
+<body>
+  <div>
+    <button
+      class="button button_sm button_text button_text_primary"
+      type="button"
+    />
+  </div>
+</body>
+`;

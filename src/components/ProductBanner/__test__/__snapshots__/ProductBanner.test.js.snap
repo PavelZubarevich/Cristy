@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductBanner should render product banner 1`] = `
+<body>
+  <div>
+    <div
+      class="productBanner"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="productBanner__body "
+        >
+          <div
+            class="productBanner__content"
+          >
+            <h2
+              class="productBanner__title"
+            >
+              title
+            </h2>
+            <p
+              class="productBanner__description"
+            >
+              description
+            </p>
+            <button
+              class="button button_lg button_contained button_contained_primary"
+              type="button"
+            >
+              BuyNowLabel
+            </button>
+          </div>
+          <div
+            class="productBanner__image"
+          >
+            <div
+              class="productBanner__image"
+            >
+              <img
+                alt="title"
+                src=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`ProductBanner should render reversed product banner 1`] = `
+<body>
+  <div>
+    <div
+      class="productBanner"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="productBanner__body reversed"
+        >
+          <div
+            class="productBanner__content"
+          >
+            <h2
+              class="productBanner__title"
+            >
+              title
+            </h2>
+            <p
+              class="productBanner__description"
+            >
+              description
+            </p>
+            <button
+              class="button button_lg button_contained button_contained_primary"
+              type="button"
+            >
+              BuyNowLabel
+            </button>
+          </div>
+          <div
+            class="productBanner__image"
+          >
+            <div
+              class="productBanner__image"
+            >
+              <img
+                alt="title"
+                src=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;

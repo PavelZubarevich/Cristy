@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`News item should render news item 1`] = `
+<body>
+  <div>
+    <div
+      class="newsItem"
+    >
+      <div
+        class="newsItem__image"
+      >
+        <img
+          alt="title"
+          src=""
+        />
+      </div>
+      <div
+        class="newsItem__content"
+      >
+        <div>
+          <div
+            class="newsItem__title"
+          >
+            title
+          </div>
+          <div
+            class="newsItem__description"
+          >
+            description
+          </div>
+        </div>
+        <a
+          class="newsItem__link"
+          href="/news1"
+        >
+          ReadMoreLabel
+          ...
+        </a>
+      </div>
+      <div
+        class="newsItem__date"
+      >
+        <div>
+          30
+        </div>
+        <div>
+          Sep
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`News should render with news 1`] = `
+<body>
+  <div>
+    <div
+      class="news"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="news__content"
+        >
+          <div
+            class="news__item"
+          >
+            <div
+              class="newsItem"
+            >
+              <div
+                class="newsItem__image"
+              >
+                <img
+                  alt="Get 20% OFF on Nike Air Uomo"
+                  src="https://as2.ftcdn.net/v2/jpg/04/19/14/17/1000_F_419141782_2mv5HVpvCW4IbixYdJOasaUZfQVfaMAS.jpg"
+                />
+              </div>
+              <div
+                class="newsItem__content"
+              >
+                <div>
+                  <div
+                    class="newsItem__title"
+                  >
+                    Get 20% OFF on Nike Air Uomo
+                  </div>
+                  <div
+                    class="newsItem__description"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  </div>
+                </div>
+                <a
+                  class="newsItem__link"
+                  href="/news1"
+                >
+                  ReadMoreLabel
+                  ...
+                </a>
+              </div>
+              <div
+                class="newsItem__date"
+              >
+                <div>
+                  30
+                </div>
+                <div>
+                  Oct
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="news__item"
+          >
+            <div
+              class="newsItem"
+            >
+              <div
+                class="newsItem__image"
+              >
+                <img
+                  alt="Get 20% OFF on Nike Air Uomo"
+                  src="https://as2.ftcdn.net/v2/jpg/04/19/14/17/1000_F_419141782_2mv5HVpvCW4IbixYdJOasaUZfQVfaMAS.jpg"
+                />
+              </div>
+              <div
+                class="newsItem__content"
+              >
+                <div>
+                  <div
+                    class="newsItem__title"
+                  >
+                    Get 20% OFF on Nike Air Uomo
+                  </div>
+                  <div
+                    class="newsItem__description"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  </div>
+                </div>
+                <a
+                  class="newsItem__link"
+                  href="/news2"
+                >
+                  ReadMoreLabel
+                  ...
+                </a>
+              </div>
+              <div
+                class="newsItem__date"
+              >
+                <div>
+                  30
+                </div>
+                <div>
+                  Sep
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="news__item"
+          >
+            <div
+              class="newsItem"
+            >
+              <div
+                class="newsItem__image"
+              >
+                <img
+                  alt="Get 20% OFF on Nike Air Uomo"
+                  src="https://as2.ftcdn.net/v2/jpg/04/19/14/17/1000_F_419141782_2mv5HVpvCW4IbixYdJOasaUZfQVfaMAS.jpg"
+                />
+              </div>
+              <div
+                class="newsItem__content"
+              >
+                <div>
+                  <div
+                    class="newsItem__title"
+                  >
+                    Get 20% OFF on Nike Air Uomo
+                  </div>
+                  <div
+                    class="newsItem__description"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  </div>
+                </div>
+                <a
+                  class="newsItem__link"
+                  href="/news3"
+                >
+                  ReadMoreLabel
+                  ...
+                </a>
+              </div>
+              <div
+                class="newsItem__date"
+              >
+                <div>
+                  30
+                </div>
+                <div>
+                  Aug
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`News should render without news 1`] = `
+<body>
+  <div>
+    <div
+      class="news"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="news__content"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

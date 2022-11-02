@@ -1,0 +1,133 @@
+@import '../../styles/vars.scss';
+
+.footer {
+  border-top: 1px solid $secondaryText;
+
+  &__top {
+    background-color: #fff;
+  }
+
+  &__topContent {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 70px 0;
+
+    @media(max-width: 768px) {
+      padding: 50px 0;
+      flex-wrap: wrap;
+    }
+
+    @media(max-width: 576px) {
+      padding: 30px 0;
+    }
+  }
+
+  &__topColumn {
+    flex: 0 1 25%;
+
+    @media(max-width: 768px) {
+      flex: 1 45%;
+    }
+
+    @media(max-width: 576px) {
+      flex: 1 100%;
+    }
+  }
+
+  &__navCategory {
+    font-family: 'Lora';
+    font-weight: 700;
+    font-size: 20px;
+    color: $primaryDarkText;
+    margin-bottom: 15px;
+  }
+
+  &__link {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+    color: $primaryText;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 7px;
+
+    &>a {
+      font-family: inherit;
+      font-weight: inherit;
+      color: inherit;
+      transition: 0.3s;
+      display: flex;
+      align-items: center;
+
+      &>svg {
+        font-size: 21px;
+        margin-right: 10px;
+      }
+
+      &:hover {
+        color: #000;
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &__bottom {
+    background-color: $secondaryDarkDark;
+  }
+
+  &__bottomContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+
+    @media(max-width: 768px) {
+      padding: 30px 0;
+    }
+
+    @media(max-width: 576px) {
+      gap: 30px;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__copyright {
+    font-family: 'Lato';
+    font-size: 15px;
+    color: $secondaryText;
+  }
+
+  &__subscribe {
+    position: relative;
+    border-bottom: 1px solid $secondaryText;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 270px;
+
+    &>input {
+      flex: 1;
+      background-color: transparent;
+      border: none;
+      padding: 10px 5px 10px 0;
+      position: relative;
+      color: $secondaryText;
+
+      &::placeholder {
+        color: $secondaryText;
+        opacity: 1;
+      }
+    }
+
+    &>button {
+      color: $primary;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

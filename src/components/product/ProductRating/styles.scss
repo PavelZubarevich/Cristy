@@ -1,0 +1,10 @@
+.productRating {
+  &__star {
+    color: #ffbf00;
+    margin-right: 5px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
