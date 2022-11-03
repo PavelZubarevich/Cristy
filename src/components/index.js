@@ -4,6 +4,9 @@ import HomeCollection from './HomeCollection';
 import BannerCarousel from './BannerCarousel';
 import ProductBanner from './ProductBanner';
 import News from './News';
+import ProductsListing from './ProductsListing';
+import PageHeading from './PageHeading';
+import Button from './common/Button';
 
 export {
   News,
@@ -12,4 +15,7 @@ export {
   HomeCollection,
   Footer,
   Header,
+  ProductsListing,
+  PageHeading,
+  Button,
 };

@@ -1,9 +1,11 @@
 import Root from './root';
-import ErrorPage from './error';
-import Home from './home';
+import ErrorPage from './ErrorPage';
+import HomePage from './HomePage';
+import ProductListingPage from './ProductListingPage';
 
 export {
-  Home,
+  ProductListingPage,
+  HomePage,
   Root,
   ErrorPage,
 };
