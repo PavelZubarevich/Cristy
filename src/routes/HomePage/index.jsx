@@ -1,7 +1,7 @@
 import {
   HomeCollection, BannerCarousel, ProductBanner, News,
-} from '../components';
-import { getProducts } from '../api/products';
+} from '../../components';
+import { getProducts } from '../../api/products';
 
 export async function loader() {
   // 8 - number of items to display
@@ -9,7 +9,7 @@ export async function loader() {
   return { products: data.products };
 }
 
-function Home() {
+function HomePage() {
   return (
     <>
       <BannerCarousel />
@@ -32,4 +32,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;

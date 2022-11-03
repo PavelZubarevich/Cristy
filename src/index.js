@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.scss';
+import './i18n';
+import 'swiper/swiper-bundle.min.css';
 import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
-import reportWebVitals from './reportWebVitals';
-import './i18n';
-import 'swiper/swiper-bundle.min.css';
 import {
-  ErrorPage, Root, Home, ProductListingPage,
+  ErrorPage, Root, HomePage, ProductListingPage,
 } from './routes';
-import { loader as homeLoader } from './routes/home';
+import { loader as homeLoader } from './routes/HomePage';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <HomePage />,
         loader: homeLoader,
       },
       {
@@ -38,8 +37,3 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>,
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
