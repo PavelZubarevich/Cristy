@@ -20,5 +20,10 @@
   "ColectionDescriptionText":"лорем ипсум долор сит амет, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi",
   "ViewAllProductsLabel":"Посмотреть все продукты",
   "ReadMoreLabel":"Читать дальше",
-  "BuyNowLabel":"Купить сейчас"
+  "BuyNowLabel":"Купить сейчас",
+  "AllProductsLabel": "Все продукты",
+  "YouAreHereLabel": "Ты тут",
+  "HomeLabel": "Главния",
+  "ShowingOfTatalLabel" : "Товаров {{products}} из {{total}}",
+  "ViewMoreLabel": "Показать больше"
 }

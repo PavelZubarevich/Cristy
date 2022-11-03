@@ -5,7 +5,7 @@ function Root() {
   return (
     <div className="wrapper">
       <Header />
-      <main>
+      <main className="main">
         <Outlet />
       </main>
       <Footer />

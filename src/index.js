@@ -6,10 +6,12 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
-import { ErrorPage, Root, Home } from './routes';
 import './i18n';
-import { loader as homeLoader } from './routes/home';
 import 'swiper/swiper-bundle.min.css';
+import {
+  ErrorPage, Root, Home, ProductListingPage,
+} from './routes';
+import { loader as homeLoader } from './routes/home';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,10 @@ const router = createBrowserRouter([
         index: true,
         element: <Home />,
         loader: homeLoader,
+      },
+      {
+        path: '/products',
+        element: <ProductListingPage />,
       },
     ],
   },
